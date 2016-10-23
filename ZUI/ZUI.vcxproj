@@ -152,7 +152,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="control\Register.c" />
-    <ClCompile Include="control\UIButton.c" />
+    <ClCompile Include="control\Button.c" />
     <ClCompile Include="control\window.c" />
     <ClCompile Include="core\carray.c" />
     <ClCompile Include="core\control.c" />
@@ -167,6 +167,7 @@
     <ClCompile Include="layout\Layout.c" />
     <ClCompile Include="layout\HorizontalLayout.c" />
     <ClCompile Include="layout\TabLayout.c" />
+    <ClCompile Include="layout\TileLayout.c" />
     <ClCompile Include="layout\VerticalLayout.c" />
     <ClCompile Include="zlib\adler32.c" />
     <ClCompile Include="zlib\crc32.c" />
@@ -178,7 +179,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="control\Register.h" />
-    <ClInclude Include="control\UIButton.h" />
+    <ClInclude Include="control\Button.h" />
     <ClInclude Include="control\window.h" />
     <ClInclude Include="core\carray.h" />
     <ClInclude Include="core\control.h" />
