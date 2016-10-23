@@ -151,9 +151,58 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="control\Register.c" />
+    <ClCompile Include="control\UIButton.c" />
+    <ClCompile Include="control\window.c" />
+    <ClCompile Include="core\carray.c" />
+    <ClCompile Include="core\control.c" />
+    <ClCompile Include="core\function.c" />
+    <ClCompile Include="core\gdi.c" />
+    <ClCompile Include="core\global.c" />
+    <ClCompile Include="core\manager.c" />
+    <ClCompile Include="core\mxml.c" />
+    <ClCompile Include="core\tree.c" />
+    <ClCompile Include="core\unzip.c" />
     <ClCompile Include="debug.c" />
+    <ClCompile Include="layout\Layout.c" />
+    <ClCompile Include="layout\HorizontalLayout.c" />
+    <ClCompile Include="layout\TabLayout.c" />
+    <ClCompile Include="layout\VerticalLayout.c" />
+    <ClCompile Include="zlib\adler32.c" />
+    <ClCompile Include="zlib\crc32.c" />
+    <ClCompile Include="zlib\inffast.c" />
+    <ClCompile Include="zlib\inflate.c" />
+    <ClCompile Include="zlib\inftrees.c" />
+    <ClCompile Include="zlib\unzip.c" />
+    <ClCompile Include="zlib\zutil.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="control\Register.h" />
+    <ClInclude Include="control\UIButton.h" />
+    <ClInclude Include="control\window.h" />
+    <ClInclude Include="core\carray.h" />
+    <ClInclude Include="core\control.h" />
+    <ClInclude Include="core\function.h" />
+    <ClInclude Include="core\gdi.h" />
+    <ClInclude Include="core\global.h" />
+    <ClInclude Include="core\mxml.h" />
+    <ClInclude Include="core\manager.h" />
+    <ClInclude Include="core\tree.h" />
+    <ClInclude Include="core\unzip.h" />
+    <ClInclude Include="layout\Layout.h" />
+    <ClInclude Include="layout\HorizontalLayout.h" />
+    <ClInclude Include="layout\TabLayout.h" />
+    <ClInclude Include="layout\TileLayout.h" />
+    <ClInclude Include="layout\VerticalLayout.h" />
+    <ClInclude Include="zlib\crc32.h" />
+    <ClInclude Include="zlib\inffast.h" />
+    <ClInclude Include="zlib\inffixed.h" />
+    <ClInclude Include="zlib\inflate.h" />
+    <ClInclude Include="zlib\inftrees.h" />
+    <ClInclude Include="zlib\unzip.h" />
+    <ClInclude Include="zlib\zconf.h" />
+    <ClInclude Include="zlib\zlib.h" />
+    <ClInclude Include="zlib\zutil.h" />
     <ClInclude Include="ZUI.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
