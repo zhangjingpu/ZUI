@@ -74,6 +74,7 @@
     <OutDir>$(SolutionDir)bin\$(Platform)\$(Configuration)</OutDir>
     <IntDir>$(SolutionDir)build\$(Platform)\$(Configuration)\</IntDir>
     <IncludePath>$(ProjectDir)/;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)\bin;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
@@ -151,9 +152,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="control\Browser.c" />
     <ClCompile Include="control\Register.c" />
     <ClCompile Include="control\Button.c" />
-    <ClCompile Include="control\window.c" />
+    <ClCompile Include="control\Window.c" />
     <ClCompile Include="core\carray.c" />
     <ClCompile Include="core\control.c" />
     <ClCompile Include="core\function.c" />
@@ -178,9 +180,10 @@
     <ClCompile Include="zlib\zutil.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="control\Browser.h" />
     <ClInclude Include="control\Register.h" />
     <ClInclude Include="control\Button.h" />
-    <ClInclude Include="control\window.h" />
+    <ClInclude Include="control\Window.h" />
     <ClInclude Include="core\carray.h" />
     <ClInclude Include="core\control.h" />
     <ClInclude Include="core\function.h" />
