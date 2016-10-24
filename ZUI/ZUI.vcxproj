@@ -156,6 +156,7 @@
     <ClCompile Include="control\Register.c" />
     <ClCompile Include="control\Button.c" />
     <ClCompile Include="control\Window.c" />
+    <ClCompile Include="core\builder.c" />
     <ClCompile Include="core\carray.c" />
     <ClCompile Include="core\control.c" />
     <ClCompile Include="core\function.c" />
@@ -184,6 +185,7 @@
     <ClInclude Include="control\Register.h" />
     <ClInclude Include="control\Button.h" />
     <ClInclude Include="control\Window.h" />
+    <ClInclude Include="core\builder.h" />
     <ClInclude Include="core\carray.h" />
     <ClInclude Include="core\control.h" />
     <ClInclude Include="core\function.h" />
