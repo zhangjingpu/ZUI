@@ -204,6 +204,7 @@
     <ClCompile Include="core\agg\src\agg_curves.cpp" />
     <ClCompile Include="core\agg\src\agg_trans_affine.cpp" />
     <ClCompile Include="core\agg\src\agg_vcgen_stroke.cpp" />
+    <ClCompile Include="core\animation.c" />
     <ClCompile Include="core\builder.c" />
     <ClCompile Include="core\carray.c" />
     <ClCompile Include="core\control.c" />
@@ -310,7 +311,9 @@
     <ClCompile Include="mujs\jsvalue.c" />
     <ClCompile Include="mujs\regexp.c" />
     <ClCompile Include="mujs\utf.c" />
-    <ClCompile Include="mujs\utftype.c" />
+    <ClCompile Include="mujs\utftype.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="vc6.cpp">
       <WholeProgramOptimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</WholeProgramOptimization>
     </ClCompile>
@@ -338,6 +341,7 @@
     <ClInclude Include="control\SplitterBar.h" />
     <ClInclude Include="control\Virtual.h" />
     <ClInclude Include="control\Window.h" />
+    <ClInclude Include="core\animation.h" />
     <ClInclude Include="core\builder.h" />
     <ClInclude Include="core\carray.h" />
     <ClInclude Include="core\control.h" />
